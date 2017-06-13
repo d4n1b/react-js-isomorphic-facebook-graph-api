@@ -1,0 +1,5 @@
+{
+  "plugins": {
+    "autoprefixer": ["last 4 versions"]
+  }
+}

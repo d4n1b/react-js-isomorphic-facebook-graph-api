@@ -1,0 +1,15 @@
+.userdetails-avatar {
+  img {
+    width: 100%;
+    height: auto;
+    padding: .75rem;
+    border: 1px solid #eee;
+    background-color: #fff;
+  }
+}
+
+.userdetails-data {
+  tr td:first-child {
+    max-width: 70px;
+  }
+}

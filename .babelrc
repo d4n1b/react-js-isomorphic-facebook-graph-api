@@ -1,0 +1,16 @@
+{
+  "presets": [
+    "es2015",
+    "react"
+  ],
+  "plugins": [
+    "transform-react-jsx",
+    ["provide-modules", {
+      "react": {
+        default: "React"
+      }
+    }],
+    "transform-decorators-legacy",
+    "transform-object-assign"
+  ]
+}
