@@ -15,5 +15,5 @@ Run App
 
   - Clone repository
   - npm i
-  - npm run build && npm run server
+  - npm start
   - Open URL http://localhost:3001/ in your browser
