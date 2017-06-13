@@ -20,10 +20,8 @@ export class App extends Component {
           <Link to="/page-404" className="navbar-brand">Page 404</Link>
         </nav>
 
-        <div className="jumbotron">
-          <div className="col-sm-8 mx-auto">
-            {this.props.children}
-          </div>
+        <div className="content col-sm-8 mx-auto">
+          {this.props.children}
         </div>
       </div>
     );

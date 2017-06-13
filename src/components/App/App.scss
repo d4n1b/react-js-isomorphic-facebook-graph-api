@@ -1,7 +1,16 @@
+body {
+  background-color: #eceeef;
+}
+
 [data-reactroot] {
   width: 100%;
 }
 
 .navbar {
   color: white !important;
+}
+
+.content {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }

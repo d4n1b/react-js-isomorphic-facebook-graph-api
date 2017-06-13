@@ -17,12 +17,11 @@ export class Profile extends Component {
     return (
       <div>
 
-        <AuthButton /><br/>
+        <br/>
+        <AuthButton />
+        <br/>
 
-        {userCredentials.loggedIn
-          ? <UserDetails userId={userCredentials.id} />
-          : <h3>You have to log in</h3>
-        }
+        {userCredentials.loggedIn && <UserDetails userId={userCredentials.id} />}
       </div>
     );
   }
