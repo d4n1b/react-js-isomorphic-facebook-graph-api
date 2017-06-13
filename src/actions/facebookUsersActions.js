@@ -4,7 +4,7 @@
 import _ from 'lodash';
 
 // Np special extra permissions
-const USER_FIELDS = 'fields=id,cover,name,first_name,last_name,age_range,link,gender,locale,picture,timezone,updated_time,verified';
+const USER_FIELDS = 'fields=id,cover,name,first_name,last_name,age_range,link,gender,locale,picture.type(large),timezone,updated_time,verified';
 
 export function logIn() {
   return (dispatch) => {
